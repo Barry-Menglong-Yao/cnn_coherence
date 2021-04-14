@@ -210,7 +210,7 @@ def load_all(filelist="list_of_grid.txt",fn=None):
     vocab = dict (vocab)
     vocab_list = sorted (vocab.keys())
     vocab_list.append('0')
-    print "Total vocabulary size in the whole dataset: " + str (len(vocab))        
+    print("Total vocabulary size in the whole dataset: " + str (len(vocab))    )    
 
     return vocab_list
 
